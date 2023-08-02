@@ -1,5 +1,7 @@
 package io.zafeapps.getnet_pos;
 
+import io.flutter.embedding.android.FlutterActivity;
+
 import android.content.Context;
 import android.os.RemoteException;
 
