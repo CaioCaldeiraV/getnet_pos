@@ -1,7 +1,5 @@
 package io.zafeapps.getnet_pos;
 
-import io.flutter.embedding.android.FlutterActivity;
-
 import android.content.Context;
 import android.os.RemoteException;
 
@@ -23,8 +21,9 @@ import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.PluginRegistry.Registrar;
+import io.flutter.embedding.engine.plugins.FlutterPlugin;
 
-public class GetnetPosPlugin implements MethodCallHandler {
+public class GetnetPosPlugin implements MethodCallHandler, FlutterPlugin {
 
     private static final Logger LOGGER = Logger.getLogger(GetnetPosPlugin.class.getName());
     private Context context;
