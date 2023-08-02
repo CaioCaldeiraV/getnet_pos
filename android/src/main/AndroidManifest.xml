@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="io.zafeapps.getnet_pos">
     <uses-permission android:name="com.getnet.posdigital.service.POSDIGITAL"/>
+    <meta-data android:name="flutterEmbedding" android:value="2"/>
 </manifest>
